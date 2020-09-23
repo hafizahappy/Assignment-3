@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+.square
+{
+	height: 150px;
+	width: 180px;
+	background-color: black;
+}
+.rectangle
+{
+	height: 100px;
+	width: 200px;
+	background-color: black;
+}
+.circle
+{
+	height: 150px;
+	width: 150px;
+	background-color: black;
+	border-radius: 50%;
+}
+.oval
+{
+	height: 100px;
+	width: 200px;
+	background-color: black;
+	border-radius: 100px/50px;
+}
+.uptriangle
+{
+	height: 0;
+	width: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 100px solid black;
+}
+
+.downtriangle
+{
+	height: 0;
+	width: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-top: 100px solid black;
+}
+.rightriangle
+{
+	height: 0;
+	width: 0;
+	border-left: 150px solid black;
+	border-bottom: 75px solid transparent;
+	border-top: 75px solid transparent;
+}
+.leftriangle
+{
+	height: 0;
+	width: 0;
+	border-right: 150px solid black;
+	border-bottom: 75px solid transparent;
+	border-top: 75px solid transparent;
+}
+.toplefttriangle
+{
+	height: 0;
+	width: 0;
+	border-top: 150px solid black;
+	border-right: 150px solid transparent;
+}
+.toprighttriangle
+{
+	height: 0;
+	width: 0;
+	border-top: 150px solid black;
+	border-left: 150px solid transparent;
+
+}
